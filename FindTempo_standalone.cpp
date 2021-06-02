@@ -1,23 +1,8 @@
 // FindTempo_standalone.cpp
 // Originally by Fietsemaker (Bram van de Wetering) and adapted to a standalone format by Nathan Stephenson
 
-// #include <Core/Core.h>
-
-// #include <Core/Polyfit.h>
-// #include <Core/Core.h>
-// #include <Core/Vector.h>
-
-// #include <Core/Utils/Utils.h>
-
-// #include <Core/System/Thread.h>
-
-// #include <Vortex/Audio/FindTempo.h>
-// #include <Vortex/Audio/FindOnsets.h>
-
-// #include <Vortex/Managers/MusicMan.h>
 
 #include "FindTempo_standalone.hpp"
-
 
 namespace vortex {
 
