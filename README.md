@@ -12,6 +12,9 @@ Offset calculation is currently broken, and I will work to fix that.
 The current implementation and scripts are required to be GPL due to their reliance on aubio as well as the fact that a good amount of aubio example code is used,
 though I plan to rewrite it to not have a dependency on aubio and release it under LGPL, MIT or a similar license.
 
-The GPL-3.0 license (included) applies to the `legacy` folder, `dataset` folder, `FindTempo_standalone.cpp`, `FindTempo_standalone.hpp` and `polyfit.h`.
+The GPL-3.0 license (included) applies to the `legacy` folder, `dataset` folder, `FindTempo_standalone.cpp`, `FindTempo_standalone.hpp`.
+`polyfit.h` is technically unlicensed and should be treated as such.
 The CC BY-SA 4.0 license applies to any file in the `doc` folder.
 The PolyfitBoost library, originally by Patrick Loeber, is under the MIT license.
+
+Bram van de Wetering's original paper (Non-causal Beat Tracking for Rhythm Games) is included in the `original-paper` folder. All rights are reserved.
