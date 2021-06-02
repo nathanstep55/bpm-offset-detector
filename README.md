@@ -6,7 +6,10 @@ This is a program which detects BPM of music according to Bram van de Wetering's
 This program is very useful for synchronizing things to music, as well as calculating tempo for a large amount of songs quickly.
 This implementation is based on the one used in [ArrowVortex](https://arrowvortex.ddrnl.com/index.html), a chart/stepfile editor for rhythm games.
 
+Command to compile: `g++ FindTempo_standalone.cpp --std=c++17 -laubio -lpthread -lstdc++fs -g -o FindTempo_standalone`
+
 The paper is currently being rewritten with better dataset and research practices in order to be more useful, but the current version can be found in the `doc/syslab-version` folder.
+Documentation and implementation is explained better in there.
 Offset calculation is currently broken, and I will work to fix that.
 
 The current implementation and scripts are required to be GPL due to their reliance on aubio as well as the fact that a good amount of aubio example code is used,
